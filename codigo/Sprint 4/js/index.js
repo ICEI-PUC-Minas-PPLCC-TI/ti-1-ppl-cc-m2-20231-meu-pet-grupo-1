@@ -177,7 +177,10 @@ function incluirContato() {
       nome_user: strUser,
       email: strEmail,
       senha: strSenha,
-      petBase: []
+      petBase: [],
+      vacinat:[],
+      vacinatp:[],
+      events:[]
   
     };
     objDados.push(novoCadastro);
@@ -217,7 +220,9 @@ function criar() {
         email: email_c,
         senha: senha_c,
         petBase: [],
-        vacina: []
+        vacinat:[],
+        vacinatp:[],
+        events:[]
       }
       salvaDados_c(cadastro);
     } else {
